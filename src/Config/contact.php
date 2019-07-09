@@ -23,7 +23,7 @@ return [
 
             */
 
-        app_path('ContactFormForms/MainContactForm.php'),
+        app_path('ContactForm/MainContactForm.php'),
 
         ],
 
