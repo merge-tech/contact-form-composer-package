@@ -2,59 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="736573c5-8b43-46e8-86d4-fd4e280e3477" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Views/contact/fields/Email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Views/contact/fields/default.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Commands/ContactForm.stub" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/ContactForm.stub" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Commands/MakeContactEtcForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/MakeContactEtcForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Config/contactetc.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContactEtcServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContactFormServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContactForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContactForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContactFormConfigurator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContactFormConfigurator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/ContactEtcController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/ContactFormController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Events/ContactFormError.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Events/ContactFormError.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Events/ContactFormSent.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Events/ContactFormSent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Events/ContactFormSubmitted.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Events/ContactFormSubmitted.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/InvalidContactSubmission.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/InvalidContactSubmission.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FieldGenerator/FieldGeneratorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FieldGenerator/FieldGeneratorInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FieldGenerator/GetContactFormFieldData.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FieldGenerator/GetContactFormFieldData.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FieldTypes/BaseFieldInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FieldTypes/BaseFieldInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FieldTypes/BaseFieldType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FieldTypes/BaseFieldType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FieldTypes/Checkbox.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FieldTypes/Checkbox.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FieldTypes/Email.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FieldTypes/Email.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FieldTypes/RecaptchaV2Invisible.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FieldTypes/RecaptchaV2Invisible.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FieldTypes/Select.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FieldTypes/Select.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FieldTypes/Text.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FieldTypes/Text.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FieldTypes/Textarea.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FieldTypes/Textarea.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Handlers/HandleContactSubmission.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handlers/HandleContactSubmission.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Handlers/HandlerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Handlers/HandlerInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mail/ContactEtcMail.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mail/ContactFormMail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Requests/ContactEtcSubmittedRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Requests/ContactFormSubmittedRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/contactetc/contact_form_template.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/contact/contact_form_template.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/contactetc/fields/Checkbox.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/contact/fields/Checkbox.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/contactetc/fields/Email.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/contactetc/fields/RecaptchaV2Invisible.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/contact/fields/RecaptchaV2Invisible.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/contactetc/fields/Select.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/contact/fields/Select.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/contactetc/fields/Text.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/contact/fields/Text.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/contactetc/fields/Textarea.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/contact/fields/Textarea.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/contactetc/fields/default.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/contactetc/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/contact/form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/contactetc/sent.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/contact/sent.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/contactetc/shared/error.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/contact/shared/error.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/CommentFeatureTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CommentFeatureTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ContactFormTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ContactFormTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/FieldGeneratorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FieldGeneratorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/HandleContactSubmissionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/HandleContactSubmissionTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/HandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/HandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/MailTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/MailTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/MiniTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/MiniTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/RulesTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/RulesTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestConfigs/alt.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestConfigs/alt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestConfigs/main_contact_form_config.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestConfigs/main_contact_form_config.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,11 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Views/contact/contact_form_template.blade.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Views/contact/shared/error.blade.php">
           <provider selected="true" editor-type-id="text-editor" />
@@ -115,11 +58,23 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="585">
               <caret line="39" column="102" selection-start-line="39" selection-start-column="102" selection-end-line="39" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="360">
+                <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -159,18 +114,55 @@
         <option value="$PROJECT_DIR$/src/routes.php" />
         <option value="$PROJECT_DIR$/src/Controllers/ContactFormController.php" />
         <option value="$PROJECT_DIR$/src/FieldTypes/Checkbox.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/mergetech-contact-form.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/buzz/laravel-google-captcha" />
+      <path value="$PROJECT_DIR$/vendor/google/recaptcha" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/database" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+    </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="-1" />
@@ -197,6 +189,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -224,18 +217,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562642399642</updated>
-      <workItem from="1562642401974" duration="1545000" />
+      <workItem from="1562642401974" duration="1930000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1545000" />
+    <option name="totallyTimeSpent" value="1930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="728" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -294,14 +288,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/phpunit.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/RulesTest.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -529,6 +515,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="102" selection-start-line="39" selection-start-column="102" selection-end-line="39" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="360">
+            <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

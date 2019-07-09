@@ -18,11 +18,11 @@ Please visit [the laravel contact form documentation here](https://mergetech.com
 
 ## questions/help
 
-Please email me via the contact form on my site, or catch me on twitter (I don't check twitter too often though) 
+Please email us via the contact form on my site, or catch us on twitter (I don't check twitter too often though) 
 
 ## issues, security issues
 
-Please email me or message me on twitter https://twitter.com/web_dev_etc
+Please email us on info@mergemedia.co.za or message us on twitter https://twitter.com/merge_group
 
 ## release history/change log
 
@@ -31,8 +31,8 @@ Please email me or message me on twitter https://twitter.com/web_dev_etc
 
 ## things to do
 
-Please let me know if any of these features would be useful for you.
+Please let us know if any of these features would be useful for you.
 
-- store submitted contact details in a database table (let me know if this is a feature that is useful?)
+- store submitted contact details in a database table (let us know if this is a feature that is useful?)
 - add additional anti spam/captcha options, as not everyone will want to use the invisible recaptcha
-- <strike>add <select> dropdowns. Is this someone people want on a contact form? please let me know</strike> (done in 1.0.7)
+- <strike>add <select> dropdowns. Is this someone people want on a contact form? please let us know</strike> (done in 1.0.7)
