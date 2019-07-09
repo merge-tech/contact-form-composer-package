@@ -1,0 +1,54 @@
+{
+  "name": "mergetech/contact-form",
+  "keywords": [
+    "laravel",
+    "package",
+    "contact",
+    "contact form",
+    "contact us",
+    "get in touch",
+    "merge_africa",
+    "webdev",
+    "php",
+    "programming",
+    "form",
+    "email",
+    "recaptcha"
+  ],
+  "description": "Simple contact form to quickly add to your laravel project. Fully customisable, includes all views, routes and controllers. Also includes anti-spam (with recaptcha). You can also have multiple contact forms on one Laravel site.",
+  "license": "MIT",
+  "support": {
+    "docs": "https://merge.africa/blogs/custom-contact-form-integration/"
+  },
+  "authors": [
+    {
+      "name": "mergeTech",
+      "homepage": "https://merge.africa/",
+      "role": "software development company",
+      "email": "info@mergemedia.co.za"
+    }
+  ],
+  "require": {
+    "illuminate/database": "~5.5.0|~5.6.0|~5.7|5.8.*",
+    "illuminate/support": "~5.5.0|~5.6.0|~5.7|5.8.*",
+    "buzz/laravel-google-captcha": "2.*"
+
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "MergeTech\\ContactForm\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "MergeTech\\ContactForm\\ContactFormServiceProvider"
+      ],
+      "aliases": {
+      }
+    }
+  }
+}
